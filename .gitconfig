@@ -1,0 +1,21 @@
+[user]
+	name = Erik Englund
+	email = englundGiant@gmail.com
+[core]
+	editor = vim
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[branch "*"]
+	rebase = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
